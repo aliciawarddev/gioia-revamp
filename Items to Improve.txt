@@ -1,0 +1,102 @@
+HEADER LINKS
+- The homepage switches between 3 images that don't provide much visual info/style, impact, and are a little blurry. 
+- "Profile" page is the exact same as the home page
+- weird square next to the profile link in nav for some reason
+- These pages have no styling: profile>about the designer, profile>about the firm, 
+- profile>About the firm has issues with the menu and expanding drop down -> moving the mouse over it makes it freak out
+- Styling is not consistent. Home page vs about the firm/about the designer vs testimonials looks like different websites
+- testimonials uses left-aligned, center, and right aligned columns, very cluttered and ugly. Wall of text. 
+- Excessive white space between text and footer on testimonials page
+- Services page: no styling, same issue with cursor and expanding menu freaking out. 
+- Portfolio page is empty. Same issue with no styling and cursor freaking out over expanded menu
+- not using a consistent footer across pages
+- Contact page: same styling as testimonials. Excessive white space between contact form and footer. 
+- Link organization in footer is not consistent with header
+- Links in footer actually direct to different pages than the header
+
+FOOTER LINKS
+- Design services: excessive white space between header and text. Excessive white space between text and footer. Different page than header link. 
+- Design consultation: excessive white space between header and text. Excessive white space between text and footer. Different page than header link. 
+- Portfolio page is completely empty
+- facebook link goes to nothing
+- houzz link works and shows more images, also different than Instagram
+- about the firm: excessive white space between text and footer. There's an invisible Instagram image/link that only becomes a visible border when cursor clicks on it. So fucking weird. Different page than header link
+- Values & mission: excessive white space between header and text. Way too much white space between text snippets. Too much whitespace between text and footer. Non existent in header links.
+- about the designer: excessive white space before footer. Different page than header link. 
+- Blog: has almost nothing on the page. Link is nonexistent in header. Unecessary checkbox. Broken links - 404 not found. None of the links work. Excessive white space. 
+
+GENERAL
+- Instagram is much more curated than website. Has images of completed designs which the website doesn't have
+- Footer has no link or way to get to the original home page
+
+MOBILE
+Same issues as desktop:
+- header>profile link is the exact same page as home page
+- profile links aren't styled
+- 3 different sites in terms of styling
+- excessive white space
+- footer is too tall with excessive space within it
+- prices/info are inconsistent
+- contact form has duplicated titles
+- in general excessive white space on pages
+- header links and footer links go to different pages
+- same broken links on blog page
+- portfolio is completely empty
+
+CONTENT
+- what is the difference between design consultation and design services pages?
+- inconsistent pricing on different pages
+
+TARGET AUDIENCE:
+- residential homeowners in Calgary/surrounding areas seeking boutique interior design services. Upper-middle to affluent clients. People who value personalized service, functional design with emotional resonance, and are willing to invest in professional design experience. 
+- secondary segments: clients planning renovations, room refresh projects, hospitality clients, home builders needing design consultation
+
+WHAT BETTER LOOKS LIKE
+Cohesive, professionally styled website with unified visual design across all pages
+Consistent navigation that functions identically in header and footer
+High-quality portfolio images showcasing completed work
+Proper whitespace management without excessive gaps
+Clear service differentiation with consistent pricing/information
+Streamlined content without redundancy
+Reliable mobile experience with appropriate responsive adjustments
+
+MAIN ISSUES
+1. Broken Navigation Architecture
+Header and footer links direct to different pages with same labels
+"Profile" page duplicates homepage
+Portfolio and blog pages empty/broken
+No homepage link in footer
+
+2. Extreme Styling Inconsistency
+Pages look like 3+ different websites
+Some pages have no styling at all
+Mixed text alignment (left/center/right on single pages)
+Invisible Instagram link that only shows on click
+
+3. Poor Whitespace Management
+Enormous gaps between headers, content, and footers
+Testimonials is cluttered despite excessive surrounding whitespace
+Oversized footer with too much internal spacing on mobile
+
+4. Technical/UX Glitches
+Menu dropdown malfunctions on hover
+Blurry, low-impact homepage carousel images
+Unexplained square icon next to Profile link
+Broken social media links
+
+5. Content Inconsistencies
+Unclear service differentiation (Design Consultation vs. Design Services)
+Conflicting pricing ($375 vs. $400)
+Experience discrepancies (5 vs. 6 years)
+Excessive content repetition across pages
+
+6. Missing Portfolio Content
+Portfolio page completely empty
+Homepage doesn't showcase actual design work
+Instagram has curated project images that website lacks
+
+7. Mobile Experience Issues
+All desktop problems present on mobile
+No mobile-specific optimizations
+Duplicated contact form titles
+
