@@ -96,7 +96,35 @@ section {
     margin: 0 auto;
 }
 
-/* HERO */
+/* PAGE HERO - All pages get cream background box */
+/* PAGE HERO - Standardized for all pages */
+.page-hero {
+    padding: 3rem 5%;
+    background-color: var(--soft-cream);
+    margin: 3rem auto 0;
+    max-width: var(--max-width);
+    text-align: center;
+}
+
+.page-hero h1 {
+    margin-bottom: 1rem;
+}
+
+.page-hero p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.page-hero img {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+/* HERO - HOME PAGE*
 .hero {
     padding: 3rem 5%;
     background-color: var(--soft-cream);
@@ -120,11 +148,14 @@ section {
     font-size: 1rem;
     line-height: 1.6;
 }
+    
+*/
 
-/* PORTFOLIO HERO */
+/* HERO SECTION - OTHER PAGES 
 .portfolio-hero {
     margin-top: 2rem;
 }
+    */
 
 
 /* HERO 
