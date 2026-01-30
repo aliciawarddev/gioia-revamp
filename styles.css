@@ -56,7 +56,7 @@ nav {
 
 .logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: var(--warm-white);
 }
@@ -382,7 +382,25 @@ footer {
 }
 */
 
-/* Final CTA Sections */
+/* CTA SECTIONS*/
+.cta-section {
+    text-align: center;
+    padding: 3rem;
+    padding-top: 1rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+}
+
+.cta-section p {
+    margin-top: 1rem;
+}
+
+
+/* Final CTA Sections 
 .final-cta,
 .portfolio-cta,
 .about-cta {
@@ -391,7 +409,9 @@ footer {
     max-width: var(--max-width);
     margin: 0 auto;
 }
+    */
 
+    /* 
 .portfolio-cta h2 {
     font-size: 2rem;
 }
@@ -403,3 +423,4 @@ footer {
 .final-cta h2 {
     font-size: 2rem;
 }
+*/ 
