@@ -46,7 +46,6 @@ a {
 header {
     background-color: var(--slate-blue);
     padding: 1.5rem 5%;
-    border-bottom: 1px solid var(--soft-cream);
 }
 
 nav {
@@ -60,8 +59,8 @@ nav {
 .logo {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--warm-white);
+    font-weight: 400;
+    color: white;
 }
 
 .nav-links {
@@ -70,10 +69,16 @@ nav {
     gap: 2rem;
     font-weight: 400;
     font-size: 1rem;
+    color: white;
 }
 
 .nav-links a {
-    color: var(--soft-cream);
+    color: white;
+    font-weight: 400;
+}
+
+.nav-links a:hover {
+    color: var(--brass-gold);
 }
 
 /* Buttons */
@@ -545,14 +550,15 @@ footer {
 /* CTA SECTIONS*/
 .cta-section {
     text-align: center;
-    padding: 3rem;
-    padding-top: 1rem;
+    padding: 0;
     max-width: var(--max-width);
-    margin: 0 auto;
+    margin: 3rem auto;
 }
 
 .cta-section h2 {
     font-size: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .cta-section p {
