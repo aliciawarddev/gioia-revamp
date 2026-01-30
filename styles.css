@@ -121,6 +121,12 @@ section {
     line-height: 1.6;
 }
 
+/* PORTFOLIO HERO */
+.portfolio-hero {
+    margin-top: 2rem;
+}
+
+
 /* HERO 
 .hero {
     padding: 3rem 5%;
@@ -182,6 +188,35 @@ section {
     padding: 1.5rem;
     border-radius: 4px;
 }
+
+/* PORTFOLIO GRID - 2 rows x 3 columns */
+.portfolio-grid {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+
+
 
 /* GRIDS  
 .project-grid,
