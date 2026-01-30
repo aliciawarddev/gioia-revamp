@@ -139,7 +139,21 @@ section {
     margin-bottom: 2rem;
 }
 
-/* GRIDS */
+/* STANDARDIZED GRID & CARD STYLING */
+.card-grid {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+/* GRIDS  
 .project-grid,
 .services-grid,
 .benefits-grid,
@@ -156,7 +170,7 @@ section {
 .instagram-grid { grid-template-columns: repeat(4, 1fr); }
 .portfolio-grid { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
 
-/* Cards */
+/* CARDS 
 .project-card,
 .service-card,
 .benefit,
@@ -165,7 +179,24 @@ section {
     padding: 1.5rem;
     border-radius: 8px;
 }
+*/ 
 
+/* IMAGES */
+.image {
+    width: 100%;
+    height: 300px;
+    background-color: var(--soft-cream);
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image.instagram {
+    height: 250px;
+}
+
+/* 
 .project-image,
 .portfolio-image,
 .instagram-post {
@@ -181,15 +212,54 @@ section {
 .instagram-post {
     height: 250px;
 }
+*/ 
 
-/* Testimonials */
-.testimonial,
-.about-testimonials {
+/* TESTIMONIALS */
+.testimonial {
+    text-align: center;
+    padding: 3rem 5%;
+    background-color: var(--soft-cream);
+    max-width: var(--max-width);
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+blockquote p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+cite {
+    font-size: 1rem;
+    color: var(--warm-taupe);
+}
+
+/* TESTIMONIALS 
+.testimonial {
     text-align: center;
     padding: 4rem 5%;
     background-color: var(--soft-cream);
     max-width: var(--max-width);
-    margin: 0 auto;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 blockquote p {
@@ -202,6 +272,7 @@ cite {
     font-size: 1rem;
     color: var(--warm-taupe);
 }
+    */
 
 /* Footer */
 footer {
@@ -220,12 +291,14 @@ footer {
     margin: 2rem auto;
 }
 
+/* 
 .process-steps {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
+*/
 
 /* Final CTA Sections */
 .final-cta,
@@ -244,6 +317,6 @@ footer {
     font-size: 2rem;
 }
 
-.about-cta h2 {
+.final-cta h2 {
     font-size: 2rem;
 }
