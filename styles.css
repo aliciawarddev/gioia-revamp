@@ -96,7 +96,32 @@ section {
     margin: 0 auto;
 }
 
+/* HERO */
+.hero {
+    padding: 3rem 5%;
+    background-color: var(--soft-cream);
+    margin: 3rem auto 0;
+    max-width: var(--max-width);
+    text-align: center;
+}
 
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* HERO 
 .hero {
     padding: 3rem 5%;
     background-color: var(--soft-cream);
@@ -125,6 +150,7 @@ section {
 .hero-content a {
     margin-top: 0.5rem;
 }
+*/
 
 /* 
 
