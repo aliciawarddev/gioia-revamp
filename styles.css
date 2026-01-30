@@ -10,6 +10,7 @@
     --slate-blue: #4A5568;
     --warm-taupe: #9B8B7E;
     --brass-gold: #B8956A;
+    --max-width: 1200px;
 }
 
 body {
@@ -25,8 +26,13 @@ h1, h2, h3 {
 }
 
 h1 { font-size: 3rem; }
-h2 { font-size: 2.5rem; }
-h3 { font-size: 1.5rem; }
+
+h2 { 
+    font-size: 2.5rem;
+    margin-top: 3rem;
+ }
+
+ h3 { font-size: 1.5rem; }
 
 a {
     color: var(--brass-gold);
@@ -83,17 +89,26 @@ nav {
     opacity: 0.8;
 }
 
-/* Sections */
+/* SECTIONS */
 section {
     padding: 4rem 5%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 }
 
 .hero {
-    text-align: center;
-    padding: 6rem 5%;
+    padding: 3rem 5%;
     background-color: var(--soft-cream);
+    margin: 3rem auto 0;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    width: 100%;
 }
 
 .hero-content h1 {
@@ -106,7 +121,25 @@ section {
     font-weight: 400;
 }
 
-/* Grids */
+.hero-content a {
+    margin-top: 0.5rem;
+}
+
+.featured-projects,
+.services-overview,
+.why-choose,
+.instagram-preview,
+.final-cta {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0;
+}
+
+.benefit {
+    margin-bottom: 2rem;
+}
+
+/* GRIDS */
 .project-grid,
 .services-grid,
 .benefits-grid,
@@ -140,6 +173,9 @@ section {
     height: 300px;
     background-color: var(--soft-cream);
     margin-bottom: 1rem;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .instagram-post {
@@ -152,6 +188,8 @@ section {
     text-align: center;
     padding: 4rem 5%;
     background-color: var(--soft-cream);
+    max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 blockquote p {
@@ -199,5 +237,13 @@ footer {
 }
 
 .portfolio-cta h2 {
+    font-size: 2rem;
+}
+
+.final-cta h2 {
+    font-size: 2rem;
+}
+
+.about-cta h2 {
     font-size: 2rem;
 }
