@@ -131,84 +131,6 @@ section {
     border-radius: 4px;
 }
 
-/* HERO - HOME PAGE*
-.hero {
-    padding: 3rem 5%;
-    background-color: var(--soft-cream);
-    margin: 3rem auto 0;
-    max-width: var(--max-width);
-    text-align: center;
-}
-
-.hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.hero-content h1 {
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-}
-
-.hero-content p {
-    margin-bottom: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-    
-*/
-
-/* HERO SECTION - OTHER PAGES 
-.portfolio-hero {
-    margin-top: 2rem;
-}
-    */
-
-
-/* HERO 
-.hero {
-    padding: 3rem 5%;
-    background-color: var(--soft-cream);
-    margin: 3rem auto 0;
-    max-width: var(--max-width);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero-content {
-    width: 100%;
-}
-
-.hero-content h1 {
-    margin-bottom: 1rem;
-}
-
-.hero-content p {
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-
-.hero-content a {
-    margin-top: 0.5rem;
-}
-*/
-
-/* 
-
-.featured-projects,
-.services-overview,
-.why-choose,
-.instagram-preview,
-.final-cta {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 0;
-}
-*/ 
-
 .benefit {
     margin-bottom: 2rem;
 }
@@ -252,37 +174,6 @@ section {
     margin-bottom: 1rem;
     border-radius: 4px;
 }
-
-
-
-
-/* GRIDS  
-.project-grid,
-.services-grid,
-.benefits-grid,
-.instagram-grid,
-.portfolio-grid {
-    display: grid;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.project-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-.services-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-.benefits-grid { grid-template-columns: repeat(3, 1fr); }
-.instagram-grid { grid-template-columns: repeat(4, 1fr); }
-.portfolio-grid { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-
-/* CARDS 
-.project-card,
-.service-card,
-.benefit,
-.portfolio-card {
-    background-color: white;
-    padding: 1.5rem;
-    border-radius: 8px;
-}
-*/ 
 
 /* IMAGES */
 .image {
@@ -359,24 +250,6 @@ section {
     opacity: 1;
 }
 
-/* 
-.project-image,
-.portfolio-image,
-.instagram-post {
-    width: 100%;
-    height: 300px;
-    background-color: var(--soft-cream);
-    margin-bottom: 1rem;
-    border-radius: 4px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.instagram-post {
-    height: 250px;
-}
-*/ 
-
 /* TESTIMONIALS */
 .testimonial {
     text-align: center;
@@ -417,36 +290,6 @@ cite {
 .tight-spacing + section {
     margin-top: 0 !important;
 }
-
-/* TESTIMONIALS 
-.testimonial {
-    text-align: center;
-    padding: 4rem 5%;
-    background-color: var(--soft-cream);
-    max-width: var(--max-width);
-    margin: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.testimonial-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-blockquote p {
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-bottom: 1rem;
-}
-
-cite {
-    font-size: 1rem;
-    color: var(--warm-taupe);
-}
-    */
 
 /* FOOTER */
 footer {
@@ -508,24 +351,6 @@ footer {
     font-weight: 600;
 }
 
-/* BIO SECTION 
-.bio {
-    max-width: var(--max-width);
-    margin: 3rem auto;
-    padding: 0 5%;
-}
-
-.bio-image {
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    object-fit: cover;
-    margin: 0 auto 2rem;
-    border-radius: 4px;
-    display: block;
-}
-    */
-
 /* PROCESS SECTION */
 .process {
     max-width: var(--max-width);
@@ -567,15 +392,6 @@ footer {
     padding: 0 5%;
 }
 
-/* 
-.process-steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-}
-*/
-
 /* CTA SECTIONS*/
 .cta-section {
     text-align: center;
@@ -593,29 +409,3 @@ footer {
 .cta-section p {
     margin-top: 1rem;
 }
-
-
-/* Final CTA Sections 
-.final-cta,
-.portfolio-cta,
-.about-cta {
-    text-align: center;
-    padding: 4rem;
-    max-width: var(--max-width);
-    margin: 0 auto;
-}
-    */
-
-    /* 
-.portfolio-cta h2 {
-    font-size: 2rem;
-}
-
-.final-cta h2 {
-    font-size: 2rem;
-}
-
-.final-cta h2 {
-    font-size: 2rem;
-}
-*/ 
