@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* ROOT VARIABLES */
 :root {
     --warm-white: #F5F3F0;
     --soft-cream: #E8E4DC;
@@ -13,6 +14,7 @@
     --max-width: 900px;
 }
 
+/* GLOBAL STYLES */
 body {
     font-family: 'Montserrat', sans-serif;
     color: var(--warm-taupe);
@@ -20,6 +22,7 @@ body {
     line-height: 1.6;
 }
 
+/* TYPOGRAPHY */
 h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     color: var(--slate-blue);
@@ -30,9 +33,9 @@ h1 { font-size: 3rem; }
 h2 { 
     font-size: 2.5rem;
     margin-top: 3rem;
- }
+}
 
- h3 { 
+h3 { 
     font-size: 1.5rem; 
     color: var(--slate-blue)
 }
@@ -42,7 +45,10 @@ a {
     text-decoration: none;
 }
 
-/* HEADER & NAVIGATION */
+/* =================================
+   HEADER & NAVIGATION
+   ================================= */
+
 header {
     background-color: var(--slate-blue);
     padding: 1.5rem 5%;
@@ -81,7 +87,10 @@ nav {
     color: var(--brass-gold);
 }
 
-/* Buttons */
+/* =================================
+   BUTTONS
+   ================================= */
+
 .cta-button {
     display: inline-block;
     background-color: var(--brass-gold);
@@ -97,14 +106,29 @@ nav {
     opacity: 0.8;
 }
 
-/* SECTIONS */
+/* =================================
+   SECTIONS & LAYOUT
+   ================================= */
+
 section {
     padding: 0;
     max-width: var(--max-width);
     margin: 0 auto;
 }
 
-/* PAGE HERO - Standardized for all pages */
+/* Utility class for reduced spacing */
+.tight-spacing {
+    margin-bottom: 0 !important;
+}
+
+.tight-spacing + section {
+    margin-top: 0 !important;
+}
+
+/* =================================
+   PAGE HERO (ALL PAGES)
+   ================================= */
+
 .page-hero {
     padding: 2rem;
     background-color: var(--soft-cream);
@@ -131,11 +155,10 @@ section {
     border-radius: 4px;
 }
 
-.benefit {
-    margin-bottom: 2rem;
-}
+/* =================================
+   CARDS & GRIDS
+   ================================= */
 
-/* STANDARDIZED GRID & CARD STYLING */
 .card-grid {
     display: grid;
     gap: 2rem;
@@ -149,7 +172,14 @@ section {
     border-radius: 4px;
 }
 
-/* PORTFOLIO GRID - 2 rows x 3 columns */
+.benefit {
+    margin-bottom: 2rem;
+}
+
+/* =================================
+   PORTFOLIO SECTION
+   ================================= */
+
 .portfolio-grid {
     display: grid;
     gap: 2rem;
@@ -175,23 +205,14 @@ section {
     border-radius: 4px;
 }
 
-/* IMAGES */
-.image {
-    width: 100%;
-    height: 300px;
-    background-color: var(--soft-cream);
-    margin-bottom: 1rem;
-    border-radius: 4px;
-    object-fit: cover;
-    object-position: center;
-}
+/* =================================
+   INSTAGRAM SECTION
+   ================================= */
 
-/* INSTAGRAM SECTION */
 .instagram-preview {
     max-width: 900px;
 }
 
-/* INSTAGRAM GRID */
 .instagram-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -199,7 +220,6 @@ section {
     margin-top: 2rem;
 }
 
-/* INSTAGRAM IMAGES */
 .instagram-image {
     width: 100%;
     height: 200px;
@@ -250,7 +270,10 @@ section {
     opacity: 1;
 }
 
-/* TESTIMONIALS */
+/* =================================
+   TESTIMONIALS SECTION
+   ================================= */
+
 .testimonial {
     text-align: center;
     padding: 3rem 5%;
@@ -280,18 +303,110 @@ cite {
     color: var(--warm-taupe);
 }
 
-/* TIGHT SPACING */
+/* =================================
+   ABOUT PAGE - BIO SECTION
+   ================================= */
 
-/* Utility class for reduced spacing */
-.tight-spacing {
-    margin-bottom: 0 !important;
+.bio-image {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto 2rem;
+    border-radius: 4px;
+    display: block;
 }
 
-.tight-spacing + section {
-    margin-top: 0 !important;
+.bio p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 
-/* FOOTER */
+.bio p strong {
+    color: var(--warm-taupe);
+    font-weight: 600;
+}
+
+/* =================================
+   ABOUT PAGE - PROCESS SECTION
+   ================================= */
+
+.process {
+    max-width: var(--max-width);
+    margin: 3rem auto;
+    padding: 0 5%;
+}
+
+/* =================================
+   ABOUT PAGE - IMAGE GRID
+   ================================= */
+
+.about-images {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: var(--max-width);
+}
+
+.about-images img:nth-child(1) {
+    grid-row: 1 / 3;
+    height: 100%;
+}
+
+.about-images img:nth-child(2),
+.about-images img:nth-child(3) {
+    height: 100%;
+}
+
+.about-images img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 4px;
+}
+
+/* =================================
+   CTA SECTIONS
+   ================================= */
+
+.cta-section {
+    text-align: center;
+    padding: 0;
+    max-width: var(--max-width);
+    margin: 3rem auto;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.cta-section p {
+    margin-top: 1rem;
+}
+
+/* =================================
+   IMAGES (GENERAL)
+   ================================= */
+
+.image {
+    width: 100%;
+    height: 300px;
+    background-color: var(--soft-cream);
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* =================================
+   FOOTER
+   ================================= */
+
 footer {
     background-color: var(--slate-blue);
     color: var(--warm-white);
@@ -326,86 +441,4 @@ footer {
 .footer-copyright {
     font-size: 0.9rem;
     opacity: 0.8;
-}
-
-/* BIO SECTION */
-
-.bio-image {
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    object-fit: cover;
-    margin: 0 auto 2rem;
-    border-radius: 4px;
-    display: block;
-}
-
-.bio p {
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
-}
-
-.bio p strong {
-    color: var(--warm-taupe);
-    font-weight: 600;
-}
-
-/* PROCESS SECTION */
-.process {
-    max-width: var(--max-width);
-    margin: 3rem auto;
-    padding: 0 5%;
-}
-
-/* ABOUT IMAGES - 3 image grid */
-.about-images {
-    margin: 3rem 0;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 2rem;
-    max-width: var(--max-width);
-}
-
-.about-images img:nth-child(1) {
-    grid-row: 1 / 3;
-    height: 100%;
-}
-
-.about-images img:nth-child(2),
-.about-images img:nth-child(3) {
-    height: 100%;
-}
-
-.about-images img {
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 4px;
-}
-
-/* PROCESS SECTION */
-.process {
-    max-width: var(--max-width);
-    margin: 3rem auto;
-    padding: 0 5%;
-}
-
-/* CTA SECTIONS*/
-.cta-section {
-    text-align: center;
-    padding: 0;
-    max-width: var(--max-width);
-    margin: 3rem auto;
-}
-
-.cta-section h2 {
-    font-size: 2rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.cta-section p {
-    margin-top: 1rem;
 }
