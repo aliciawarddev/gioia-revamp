@@ -269,10 +269,65 @@ section {
 .instagram-card:hover .instagram-icon {
     opacity: 1;
 }
-
 /* =================================
    TESTIMONIALS SECTION
    ================================= */
+
+.testimonial {
+    text-align: center;
+    padding: 3rem 5%;
+    background-color: var(--soft-cream);
+    max-width: var(--max-width);
+    margin: 3rem auto;
+    border-radius: 4px;
+}
+
+.testimonial-container {
+    position: relative;
+    height: 7rem;
+    overflow: hidden;
+}
+
+.testimonial-container blockquote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    animation: fadeTestimonial 15s ease-in-out infinite;
+}
+
+.testimonial-container blockquote:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.testimonial-container blockquote:nth-child(3) {
+    animation-delay: 10s;
+}
+
+@keyframes fadeTestimonial {
+    0% { opacity: 0; }
+    8% { opacity: 1; }
+    25% { opacity: 1; }
+    33% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+blockquote p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+cite {
+    font-size: 1rem;
+    color: var(--warm-taupe);
+}
+
+/* =================================
+   TESTIMONIALS SECTION
+   ================================= 
+
 
 .testimonial {
     text-align: center;
@@ -302,6 +357,7 @@ cite {
     font-size: 1rem;
     color: var(--warm-taupe);
 }
+    */
 
 /* =================================
    ABOUT PAGE - BIO SECTION
