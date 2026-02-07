@@ -540,6 +540,11 @@ footer {
         padding: 0 1.5rem;
     }
 
+    /* About images*/
+    .about-images {
+        padding: 0 1.5rem;
+    }
+
     /* Grids - Stack on mobile */
     .portfolio-grid {
         grid-template-columns: 1fr;
