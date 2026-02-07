@@ -505,8 +505,13 @@ footer {
 
 @media (max-width: 768px) {
     /* Typography scaling */
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.75rem; }
+    h1 {  font-size: 2rem; }
+    
+    h2 { 
+        font-size: 1.5rem;
+        padding: 0 1.5rem;
+    }
+    
     h3 { font-size: 1.25rem; }
 
     /* Navigation */
@@ -566,6 +571,10 @@ footer {
     /* Testimonials */
     .testimonial {
         padding: 2rem 1.5rem;
+    }
+
+    .testimonial-container {
+        height: 10rem;
     }
 
     /* Footer */
