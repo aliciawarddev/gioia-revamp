@@ -535,6 +535,11 @@ footer {
         height: 400px;
     }
 
+    /* Bio Intro */
+    .bio-intro {
+        padding: 0 1.5rem;
+    }
+
     /* Grids - Stack on mobile */
     .portfolio-grid {
         grid-template-columns: 1fr;
