@@ -510,9 +510,14 @@ footer {
     h2 { 
         font-size: 1.75rem;
         padding: 0 1.5rem;
+        margin-top: 2rem;
     }
     
     h3 { font-size: 1.25rem; }
+
+    p {
+        margin-bottom: 0.5rem;
+    }
 
     /* Navigation */
     nav {
@@ -584,7 +589,7 @@ footer {
     }
 
     .testimonial-container {
-        height: 15rem;
+        height: 10rem;
     }
 
     /* Footer */
