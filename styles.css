@@ -515,8 +515,9 @@ footer {
     
     h3 { font-size: 1.25rem; }
 
-    p {
-        margin-bottom: 0.5rem;
+    /* Section intro */
+    .section-intro {
+        padding: 0 1rem;
     }
 
     /* Navigation */
@@ -589,7 +590,7 @@ footer {
     }
 
     .testimonial-container {
-        height: 10rem;
+        height: 8rem;
     }
 
     /* Footer */
